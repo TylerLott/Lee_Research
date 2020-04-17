@@ -15,7 +15,7 @@ df.rename(columns={'Unnamed: 6': 'Initial Slope'}, inplace=True)
 df.rename(columns={'Unnamed: 10': 'Failure Load'}, inplace=True)
 
 # COMBINE THE TEST RESULTS
-test_percents = [0, 5, 10, 20]
+test_percents = [0, 5, 10, 20, 30, 40, 50]
 
 for perc in test_percents:
     for num in range(1, 13):
